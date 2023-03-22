@@ -1,8 +1,8 @@
-import {calculateGenderPercentage} from '../../lab01/lab01';
+import { calculateGenderPercentage } from '../../lab01/lab01'; 
 import {calculateBoysPercentage} from '../../lab01/lab01';
 import {calculateGirlsPercentage} from '../../lab01/lab01';
 
-describe('Testing the Calculate Gender Percentage algorithm', () => {
+describe ('Testing the Calculate Gender Percentage algorithm', () => {
     test('6 boys and 9 girls should have a 0.4 boys percentage and 0.6 girls percentage', () => {
         //Arrange
         let boys: number = 6
