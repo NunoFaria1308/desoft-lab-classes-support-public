@@ -5,13 +5,13 @@ describe('calculaA', () => {
   test('calculates Area R=5', () => {
     // Arrange
     const Rx = 5;
-    const Haltura = 10;
+    const PI = 3.14
     const expected = 31.4 * Rx;
     // Act
-    const result = calculaA(Rx, Haltura);
+    const result = calculaA(Rx, 3.14 );
     // Assert
     expect(result).toBe(expected);
-  });
+    });
 });
 
 describe('calculaV', () => {
