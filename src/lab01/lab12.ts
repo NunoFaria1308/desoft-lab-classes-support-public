@@ -2,7 +2,7 @@ function teoremaDeTales(altpredio: number, sombpredio: number, altupax:number, s
     if ((sombpredio - altpredio) !== 0 && (sombpax - altupax) !== 0) {
       return (altupax - sombpax) / (sombpredio - altpredio);
     } else {
-      console.log("erro");
+      console.log("Erro");
       return sombpredio;
     }
   }
