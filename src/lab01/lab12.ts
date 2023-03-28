@@ -2,7 +2,7 @@ function teoremaDeTales(altpredio: number, sombpredio: number, altupax:number, s
     if ((sombpredio - altpredio) !== 0 && (sombpax - altupax) !== 0) {
       return (altupax - sombpax) / (sombpredio - altpredio);
     } else {
-      console.log("null");
+      console.log("erro");
       return sombpredio;
     }
   }
@@ -10,3 +10,5 @@ function teoremaDeTales(altpredio: number, sombpredio: number, altupax:number, s
   export {teoremaDeTales};
   console.log(teoremaDeTales(2, 4, 3, 6));
   
+  
+   

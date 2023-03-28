@@ -10,7 +10,7 @@ describe("Teorema de Tales", () => {
     const resultado = teoremaDeTales(altpredio, sombpredio, altupax, sombpax);
     expect(resultado).toEqual(resultadoEsperado);
   });
-  it("Deve retornar null quando denominador é zero", () => {
+  it("Deve retornar erro quando denominador é zero", () => {
     const altpredio = 2;
     const sombpredio = 4;
     const altupax = 6;
