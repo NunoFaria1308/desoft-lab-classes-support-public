@@ -1,4 +1,4 @@
-import { numeroPar } from "../../lab02/lab02-5";
+import { numeroPar } from '../../lab02/lab02-5';
 // Verifica se a função retorna true para números pares
 test('Retorna true para números pares', () => {
     expect(numeroPar(2)).toBe(true);

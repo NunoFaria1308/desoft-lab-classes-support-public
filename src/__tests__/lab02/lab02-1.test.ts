@@ -1,4 +1,4 @@
-import { mediaPesada } from "../../lab02/lab02-1";
+import { mediaPesada } from "../../lab02/lab02-1"; 
   describe('mediaPesada', () => {
     it('calcula a média ponderada corretamente', () => {
      // Arrange
